@@ -93,7 +93,7 @@ search:
           - country_of_origin
           - entry_date
           - port_of_entry
-          - document_typea
+          - document_type
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS

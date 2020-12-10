@@ -18,11 +18,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
+title:            'A-Files'
+description:      'Immigration history'
 url:              'https://minicomp.github.io'
 baseurl:          '/wax'
-copyright:        'Example copyright org, 2019'
+copyright:        'copyright RBZ Willits 2020'
 logo:             '/assets/logo.png'
 
 # ---------------------------------------------------------------
@@ -66,7 +66,7 @@ collections:
     output: true
   a_files: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'default' # the layout for the pages to use
+    layout: 'generic_collection_item' # the layout for the pages to use
     metadata:
       source: 'a_files.csv' # path to the metadata file within `_data`
     images:
@@ -117,6 +117,8 @@ menu:
         link: '/exhibits/a/'
       - label: 'Inline Image References'
         link: '/exhibits/b/'
+      - label: 'Inline Image Two'
+        link: '/exhibits/c/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'

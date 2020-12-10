@@ -16,4 +16,4 @@ But every A-File also represents a life, and this online exhibition will work ag
 
 ### Browse the Collection
 
-{% include collection_gallery.html facet_by='object_type' collection='a_files' %}
+{% include collection_gallery.html facet_by='label' collection='a_files' %}

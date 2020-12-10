@@ -1,0 +1,46 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/a_files.json",
+  "@type": "sc:Collection",
+  "label": "a_files",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/3_a014704318_james_sunseri/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "3_a014704318_james_sunseri"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/10_a014704318_james_sunseri/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "10_a014704318_james_sunseri"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/2_a014704318_james_sunseri/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "2_a014704318_james_sunseri"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/11_a014704318_james_sunseri/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "11_a014704318_james_sunseri"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/1_a014704318_james_sunseri/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "1_a014704318_james_sunseri"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/9_a014704318_james_sunseri/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "9_a014704318_james_sunseri"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/4_a014704318_james_sunseri/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "4_a014704318_james_sunseri"
+    }
+  ]
+}

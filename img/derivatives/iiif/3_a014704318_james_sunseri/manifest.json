@@ -1,0 +1,77 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/3_a014704318_james_sunseri/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "3_a014704318_james_sunseri",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_3_a014704318_james-sunseri/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/3_a014704318_james_sunseri_3_a014704318_james-sunseri.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/3_a014704318_james_sunseri_3_a014704318_james-sunseri.json",
+          "label": "Page 1",
+          "width": 2786,
+          "height": 2026,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_3_a014704318_james-sunseri/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/3_a014704318_james_sunseri_3_a014704318_james-sunseri.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_3_a014704318_james-sunseri/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_3_a014704318_james-sunseri",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1393,
+                "height": 1013
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/3_a014704318_james_sunseri_3_a014704318_james-sunseri.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/3_a014704318_james_sunseri_4_a014704318_james-Sunseri.json",
+          "label": "Page 2",
+          "width": 2758,
+          "height": 1918,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_4_a014704318_james-Sunseri/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/3_a014704318_james_sunseri_4_a014704318_james-Sunseri.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_4_a014704318_james-Sunseri/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_4_a014704318_james-Sunseri",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1379,
+                "height": 959
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/3_a014704318_james_sunseri_4_a014704318_james-Sunseri.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_3_a014704318_james-sunseri/full/full/0/default.jpg"
+}

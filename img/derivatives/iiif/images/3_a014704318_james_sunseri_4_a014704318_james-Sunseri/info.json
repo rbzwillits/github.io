@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/3_a014704318_james_sunseri_4_a014704318_james-Sunseri",
+  "protocol": "http://iiif.io/api/image",
+  "width": 1379,
+  "height": 959,
+  "sizes": [
+    {
+      "width": 1379,
+      "height": 959
+    },
+    {
+      "width": 250,
+      "height": 174
+    },
+    {
+      "width": 1140,
+      "height": 793
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}
